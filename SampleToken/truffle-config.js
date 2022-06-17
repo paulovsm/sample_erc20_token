@@ -18,12 +18,12 @@
  *
  */
 
-const HDWalletProvider = require('@truffle/hdwallet-provider');
-const infuraKey = "b904b1d9429246a8a4748c868f6fd398"
+const HDWalletProvider = require('truffle-hdwallet-provider');
+const infuraKey = "<INFURA KEY>"
 
 //
 // const fs = require('fs');
-// const mnemonic = fs.readFileSync(".secret").toString().trim();
+const mnemonic = "<MESTAMASK SEED>";
 
 module.exports = {
   /**
